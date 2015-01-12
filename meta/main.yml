@@ -5,7 +5,7 @@ galaxy_info:
   author: igor_mukhin
   description: Set aliases in ~/.bash_aliases for Debian/Ubuntu
   license: "MIT"
-  min_ansible_version: 1.4
+  min_ansible_version: 1.8
   platforms:
   - name: Ubuntu
     versions:
