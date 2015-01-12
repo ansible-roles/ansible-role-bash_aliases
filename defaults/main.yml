@@ -1,0 +1,4 @@
+---
+bash_aliases_path: "~/.bash_aliases"
+bash_aliases_mode: 0644
+bash_aliases: false

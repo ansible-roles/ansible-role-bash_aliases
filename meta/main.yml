@@ -1,0 +1,17 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: igor_mukhin
+  description: Set aliases in ~/.bash_aliases for Debian/Ubuntu
+  license: "MIT"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+    - system
