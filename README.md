@@ -13,7 +13,7 @@ ansible-galaxy install igor_mukhin.bash_aliases,v0.1.0
 
 ## Example playbook
 
-Lets make aliases for symfony2 console command
+Lets make aliases for most used symfony2 console commands
 
 ```yml
 # playbook.yml
