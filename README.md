@@ -30,6 +30,6 @@ vars:
 	  - { alias: 'sflg', command: 'sf list | grep' }
 
 roles:
-  - igor_mukhin.bash_aliases
+  - { role: igor_mukhin.bash_aliases, sudo: false }
 
 ```
