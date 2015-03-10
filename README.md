@@ -29,6 +29,10 @@ vars:
 	  - { alias: 'sfl', command: 'sf list' }
 	  - { alias: 'sflg', command: 'sf list | grep' }
 
+    # You also can add extra lines in any format to .bash_aliases
+    bash_aliases_extra:
+      - "git config --global alias.unstage 'reset HEAD --'"
+
 roles:
   - { role: igor_mukhin.bash_aliases, sudo: false }
 
