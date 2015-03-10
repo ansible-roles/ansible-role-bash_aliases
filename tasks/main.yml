@@ -1,5 +1,6 @@
 ---
-- name: Add custom bash aliases
+
+- name: Bash aliases | Add aliases
   lineinfile:
     dest: "{{ bash_aliases_path }}"
     create: yes
