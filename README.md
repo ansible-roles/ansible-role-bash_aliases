@@ -8,7 +8,7 @@ First of all you should install [Ansible](http://www.ansible.com/home) on your m
 
 # Installation
 ```bash
-ansible-galaxy install igor_mukhin.bash_aliases,v0.1.0
+ansible-galaxy install igor_mukhin.bash_aliases
 ```
 
 ## Example playbook
