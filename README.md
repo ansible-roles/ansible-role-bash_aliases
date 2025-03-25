@@ -8,7 +8,7 @@ First of all you should install [Ansible](http://www.ansible.com/home) on your m
 
 # Installation
 ```bash
-ansible-galaxy install igor_mukhin.bash_aliases
+ansible-galaxy role install ansible-roles.bash_aliases
 ```
 
 ## Example playbook
@@ -34,6 +34,6 @@ vars:
       - "git config --global alias.unstage 'reset HEAD --'"
 
 roles:
-  - { role: igor_mukhin.bash_aliases, sudo: false }
+  - { role: ansible-roles.bash_aliases, sudo: false }
 
 ```
